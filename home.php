@@ -1,6 +1,6 @@
 <?php
-$db=mysqli_connect("localhost","root","","grocery");
-	
+//$connection=mysqli_connect("localhost","root","","grocery");
+	include 'assets/dbconnect.php';
 	if(isset($_POST['register_btn'])){
 		session_start();
 	  $username=$_POST['username'];//mysqli_real_escape_string($_POST['username']);
@@ -10,8 +10,8 @@ $db=mysqli_connect("localhost","root","","grocery");
 		$address=$_POST['address'];
 		if($password==$password2){
 			$password=md5($password);
-			$sql="INSERT INTO user(name,email,password,address) VALUES('$username','$email','$password2','$address')";
-			mysqli_query($db,$sql);
+			$sql="INSERT INTO user(username,email,password,address) VALUES('$username','$email','$password2','$address')";
+			mysqli_query($connection,$sql);
 			$_SESSION['message']="You are now logged in";
 			$_SESSION['username']=$username;
 			header("location: index.php");
