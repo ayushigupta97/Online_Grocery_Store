@@ -29,9 +29,9 @@ To run this project, we need
 Important parts of project are
 
 - Admin
-  •	Login
-  •	Add Product
-  •	Update Product
-  •	Delete Product
-  •	Confirm Order
+  -	Login
+  -	Add Product
+  -	Update Product
+  -	Delete Product
+  -	Confirm Order
 - Customer
