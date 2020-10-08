@@ -26,7 +26,7 @@ To run this project, we need
 - XAMPP
 - Sublime Text Editor or any Text Editor
 ## Specifications
-Important parts of project are
+Modules and important functionalities of project are:
 
 - Admin
   -	Login
@@ -35,3 +35,12 @@ Important parts of project are
   -	Delete Product
   -	Confirm Order
 - Customer
+  -	Login
+  -	Logout
+  -	Registration
+  -	Product Details
+  -	Search Product
+  -	Add to cart
+  -	Place Order
+  -	Payment
+
