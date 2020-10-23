@@ -11,7 +11,6 @@ E-Commerce website for shopping of grocery items.
 ## Introduction
 The aim of the project is to build an E-Commerce Website to search and buy grocery products of different categories and managed by admin.
 ## Technologies
-- **IDE-** NetBeans IDE 8.2
 - PHP
 - HTML5
 - CSS3
